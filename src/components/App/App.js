@@ -8,7 +8,7 @@ import Main from "../Main/Main";
 
 
 function App(){
-    retrun (
+    return (
         <div className="site-container">
             <SideBar/>
             <Main/>

@@ -5,10 +5,13 @@ import * as serviceWorker from './serviceWorker';
 import './index.css';
 
 
+import App from "./components/App/App";
 
 
 
-ReactDOM.render(<h1>Helloo World</h1>, document.getElementById('root'));
+
+
+ReactDOM.render(<App/>, document.getElementById('root'));
     
 
 serviceWorker.unregister();
