@@ -45,3 +45,30 @@ nav{
 
 
 
+/* in the report components */
+.report{
+  display: flex;
+  background-color: #f1f9ff;
+  flex-direction: column;
+}
+
+.icon-text{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  color:#2699fb;
+}
+
+.icon{
+  color:#2699fb;
+}
+
+.report-button{
+  background-color: #2699fb;
+  color:#fff;
+  width:70px;
+}
+
+
+
+
