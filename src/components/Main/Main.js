@@ -3,9 +3,9 @@ import React from 'react';
 
 function Main(){
     return (
-        <div className="main">
-            <h3>Main</h3>
-        </div>
+        <main className="main col-md-7 mx-auto my-5 bg-dark">
+            
+        </main>
     )
 }
 

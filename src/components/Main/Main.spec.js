@@ -10,7 +10,7 @@ describe("Main",()=>{
 
     beforeEach(()=> wrapper = shallow(<Main/>));
 
-    it("Renders one div",()=>{
-        expect(wrapper.find('div').length).toEqual(1);
+    it("Renders one main",()=>{
+        expect(wrapper.find('main').length).toEqual(1);
     })
 })

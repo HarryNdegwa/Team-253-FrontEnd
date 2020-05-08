@@ -8,3 +8,40 @@ html,body{
   overflow-x: hidden;
 }
 
+p,ul{
+  margin:0px;
+  padding:0px;
+
+}
+
+
+nav{
+  display: flex;
+  color:white;
+  align-items: center;
+  justify-content: space-between;
+  padding:0px 300px;
+  height:80px;
+  background-color: #2699fb;
+  width: 100vw !important;
+}
+
+.brand{
+  flex:2;
+}
+
+.links{
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+  flex: 3;
+}
+
+.link,.link:hover{
+  color:#fff;
+  text-decoration: none;
+}
+
+
+
+
