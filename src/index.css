@@ -8,3 +8,98 @@ html,body{
   overflow-x: hidden;
 }
 
+p,ul{
+  margin:0px;
+  padding:0px;
+
+}
+
+
+nav{
+  display: flex;
+  color:white;
+  align-items: center;
+  justify-content: space-between;
+  padding:0px 300px;
+  height:80px;
+  background-color: #2699fb;
+  width: 100vw !important;
+}
+
+@media screen and (max-width:1024px){
+  nav{
+    padding:0px 220px;
+  }
+}
+
+@media screen and (max-width:1020px){
+  nav{
+    padding:0px 100px;
+  }
+}
+
+
+
+.brand{
+  flex:2;
+}
+
+.links{
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+  flex: 3;
+}
+
+.link,.link:hover{
+  color:#fff;
+  text-decoration: none;
+}
+
+@media screen and (max-width:420px){
+  nav{
+    padding:0px 20px;
+  }
+
+  .links{
+    display: none;
+  }
+}
+
+
+
+
+/* in the report components */
+.report{
+  display: flex;
+  background-color: #f1f9ff;
+  flex-direction: column;
+}
+
+.icon-text{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  color:#2699fb;
+}
+
+.icon{
+  color:#2699fb;
+}
+
+.report-button{
+  background-color: #2699fb;
+  color:#fff;
+  width:70px;
+}
+
+@media screen and (max-width:420px){
+  .icon-text{
+    flex-direction: column;
+    margin-bottom: 30px;
+  }
+}
+
+
+
+
