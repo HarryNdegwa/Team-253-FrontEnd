@@ -26,6 +26,20 @@ nav{
   width: 100vw !important;
 }
 
+@media screen and (max-width:1024px){
+  nav{
+    padding:0px 220px;
+  }
+}
+
+@media screen and (max-width:1020px){
+  nav{
+    padding:0px 100px;
+  }
+}
+
+
+
 .brand{
   flex:2;
 }
@@ -40,6 +54,16 @@ nav{
 .link,.link:hover{
   color:#fff;
   text-decoration: none;
+}
+
+@media screen and (max-width:420px){
+  nav{
+    padding:0px 20px;
+  }
+
+  .links{
+    display: none;
+  }
 }
 
 

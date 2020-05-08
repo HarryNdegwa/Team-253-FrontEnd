@@ -8,7 +8,7 @@ import ReportTwo from "../ReportTwo/ReportTwo";
 
 function Main(){
     return (
-        <main className="main col-md-7 mx-auto my-5">
+        <main className="main col-md-9 col-lg-7 mx-auto my-5">
             <Hero/>
             <ReportOne/>
             <ReportTwo/>
