@@ -3,7 +3,7 @@ import React from "react";
 import Router from "../Router/Router";
 import Social from "../Social/Social";
 
-function Header(){
+function SideBar(){
     return (
         <div className="header">
             <Router/>
@@ -12,4 +12,4 @@ function Header(){
     )
 }
 
-export default Header
+export default SideBar
