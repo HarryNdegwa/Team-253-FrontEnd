@@ -1,15 +1,17 @@
 import React from 'react';
-import { cleanup, render } from '@testing-library/react';
-import '@testing-library/jest-dom/extend-expect';
-import Carousel from './Carousel';
+import { shallow } from 'enzyme';
 
-describe('<Carousel />', () => {
-  afterEach(cleanup);
+import Carousel from '../Carousel/Carousel';
 
-  test('it should mount', () => {
-    const { getByTestId } = render(<Carousel />);
-    const carousel = getByTestId('Carousel');
 
-    expect(carousel).toBeInTheDocument();
-  });
-});
+describe('Carousel',()=>{
+
+    let wrapper;
+
+    beforeEach(()=> wrapper = shallow(<Carousel/>));
+
+    it('Should render div',()=>{
+        expect(wrapper.find('div').length).toEqual(5)
+    })
+
+})
