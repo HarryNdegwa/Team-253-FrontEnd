@@ -1,0 +1,17 @@
+h3 {
+  padding: 10px;
+}
+
+.main {
+  color: #2699fb;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.card {
+  background-color: #f1f9ff;
+  margin: 3px 0px 3px 0px;
+  width: 22rem;
+}

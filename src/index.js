@@ -5,8 +5,8 @@ import * as serviceWorker from './serviceWorker';
 
 import './index.css';
 
-
 import App from "./components/App/App";
+import LearnMore from './pages/LearnMore/LearnMore'
 
 
 const routing = (
@@ -31,7 +31,7 @@ const routing = (
             <Switch>
                 <Route path="/" exact component={App} />
                 <Route path="/rescue-units" component={App} />
-                <Route path="/learn-more" component={App} />
+                <Route path="/learn-more" component={LearnMore} />
             </Switch>
 
         </header>
