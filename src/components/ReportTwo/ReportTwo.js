@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from "react-router-dom";
 
 
 class ReportTwo extends React.Component{
@@ -13,7 +14,7 @@ class ReportTwo extends React.Component{
                     </section>
                 </div>
                 <div className="d-flex justify-content-end px-4">
-                    <a href="#" className="report-button btn">Go</a>
+                    <Link to="/report-recklessness" className="report-button btn">Go</Link>
                 </div>
             </div>
         )
