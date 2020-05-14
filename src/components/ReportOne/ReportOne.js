@@ -1,5 +1,6 @@
 import React from "react";
-import {Link} from "react-router-dom";
+import {Link,Switch,BrowserRouter as Router,Route} from "react-router-dom";
+import LearnMore from "../../pages/LearnMore/LearnMore";
 
 
 class ReportOne extends React.Component{
