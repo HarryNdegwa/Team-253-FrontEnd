@@ -1,7 +1,7 @@
 import React from "react";
 import {useFormik} from "formik";
 import * as Yup from "yup";
-import {Link,Switch} from "react-router-dom";
+import {Link} from "react-router-dom";
 
 
 import "./Register.css";
@@ -51,7 +51,7 @@ function Register(){
 
             function enableGPSForCoordinates(){
                 if(navigator.geolocation){
-                    navigator.geolocation.getCurrentPosition(success,error);
+                    navigator.geolocation.getCurrentPosition(success,error,{enableHighAccuracy:true});
                 }else{
                     alert("Enable GPS so that we can get your current location.Ensure your internet connection is stable.");
                     enableGPSForCoordinates();
