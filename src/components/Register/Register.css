@@ -1,0 +1,22 @@
+.main{
+    color:#2699fb;
+}
+
+.register-btn{
+    background-color: #2699fb;
+    color:#fff;
+    float: right;
+}
+
+.error{
+    color: red !important;
+}
+
+.login-wrapper{
+    margin-top: 60px;
+    color:#000;
+}
+
+.login-wrapper a,.login-wrapper a:hover{
+    text-decoration: none;
+}
